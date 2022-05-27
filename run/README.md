@@ -1,4 +1,4 @@
-# SDP-project
+# CVR Ballot Reader
 
 ## Requirement
 
