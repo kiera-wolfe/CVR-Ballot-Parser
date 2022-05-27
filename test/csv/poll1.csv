@@ -1,0 +1,6 @@
+Batch#,Ballot#,Status,BallotType,"1:PersonA","1:PersonB","2:PersonC","2:PersonD"
+,,,,T1,T1,T2,T2
+1,1,,T1,V,
+1,2,,T2,,,,V
+2,1,,T1,,Q
+2,2,,T2,,,V,

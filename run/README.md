@@ -43,9 +43,6 @@ Step 3. Edit each line as necessary according to the CVR file used and the desir
 Step 4. Run the **_View CVR Results_** batch file.
         Execute this batch file by double clicking.
         A press enter after verifying Step 1 and 2 are completed.
-        
-Step 5. When you are done viewing the CVR file you can exit the browser window and close the terminal.
-        Repeat these steps for each CVR you wish to view.
 
 
 ### Running on Command Line

@@ -1,0 +1,41 @@
+# ''' Set up the configuration '''
+
+cvrFile:
+    location: "LargeCVR.csv" #Change depending on file being worked with
+    index: 
+        column:
+            batch: 0
+            ballot: 1
+            status: 2  #included in parsing, but not being used
+            type: 3
+            candidates: 4  
+        row:
+            names: 0
+            types: 1
+            ballots: 2
+
+display: #everything in display field, including break, is for all configuration file types
+    row_height: 75 #Can edit: Default row height is 75
+    column_width: 130 #Can edit: Default column width is 130
+    break_after_x_columns: 5 #Can edit: if only 1 page, must specify break to be
+                              #at least total number of columns on the ballot.
+                              #The value specified for break can be more and still work.
+mapping:
+    parties:
+        - DEMOCRATIC PARTY
+        - REPUBLICAN PARTY
+        - INDEPENDENT PARTY
+        - WRITE-IN VOTES
+    offices:
+        front:
+            - PRESIDENTIAL
+            - REP. IN CONGRESS
+            - STATE SENATOR
+            - STATE REP.
+            - REGISTRAR VOTERS
+        back:
+            -FILLER1
+            -FILLER2
+            -FILLER3
+            -FILLER4
+            -FILLER5

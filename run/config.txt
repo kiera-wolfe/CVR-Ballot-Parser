@@ -1,0 +1,1 @@
+Ensure the config.yaml file matches the CVR you are using and your desired display settings.
